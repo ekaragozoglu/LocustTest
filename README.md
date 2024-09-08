@@ -1,28 +1,23 @@
-# Arama Yük Testi
+## Search Load Test
+This project aims to perform a load test on the search feature of a website using Locust. The project is designed to assess the performance of product search requests.
 
-Bu proje, Locust kullanarak bir web sitesindeki arama özelliğini yük testi yapmayı amaçlamaktadır. Proje, ürün arama taleplerinin performansını değerlendirmek için tasarlanmıştır.
+## Description
+The project tests the search functionality on n11.com by performing searches with specific keywords. It evaluates the response obtained from each search request and prints the results.
 
-## Açıklama
+## Setup
+To set up the project, follow these steps:
 
-Proje, belirli anahtar kelimelerle arama yaparak n11.com üzerindeki arama fonksiyonunu test eder. Her arama isteği sonucunda elde edilen yanıtı değerlendirir ve sonuçları ekrana yazdırır.
+- Clone the Repository:
+git clone https://github.com/ekaragozoglu/LocustTest
 
-## Kurulum
+- Navigate to the Project Directory:
+cd LocustTest
 
-Projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz:
-
-**Depoyu Klonlayın:**
-   ```bash
-   git clone https://github.com/ekaragozoglu/LocustTest
-   
-Proje Dizini İçine Girin:
-cd path/to/LocustTest
-
-Gerekli Python Paketlerini Yükleyin:
+- Install the Required Python Packages:
 pip install -r requirements.txt
 
-## Kullanım
-
-Locust testi çalıştırmak için aşağıdaki komutu kullanabilirsiniz:
+- Usage
+To run the Locust test, use the following command:
 locust -f locustfile.py
 
-Tarayıcıdan "http://localhost:8089/" adresine giriniz.
+- Then, open your browser and navigate to http://localhost:8089/ to view and start the test.
