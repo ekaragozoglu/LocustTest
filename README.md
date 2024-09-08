@@ -12,7 +12,7 @@ Projeyi kullanmak için aşağıdaki adımları takip edebilirsiniz:
 
 **Depoyu Klonlayın:**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/ekaragozoglu/LocustTest
    
 Proje Dizini İçine Girin:
 cd path/to/LocustTest
