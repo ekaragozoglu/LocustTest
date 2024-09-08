@@ -24,3 +24,5 @@ pip install -r requirements.txt
 
 Locust testi çalıştırmak için aşağıdaki komutu kullanabilirsiniz:
 locust -f locustfile.py
+
+Tarayıcıdan "http://localhost:8089/" adresine giriniz.
